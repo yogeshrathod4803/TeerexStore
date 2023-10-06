@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f1efef; /* Background color remains unchanged */
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.brandName {
+  color: #121212;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  color: #121212;
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.products,
+.CheckOutBag {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #121212;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Adjust icon size and padding if needed */
+.CheckOutBag {
+  font-size: 24px;
+  padding-left: 10px; /* Add some space between text and icon */
+}
+
+.products:hover {
+  background-color: #bab5b5;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.CheckOutBag:hover {
+  background-color: #bab5b5;
+  padding: 5px;
+  border-radius: 5px;
+}
